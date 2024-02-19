@@ -1,0 +1,90 @@
+{
+  "monthly": {
+    "id": "monthly",
+    "planName": "Monthly",
+    "plans": {
+      "arcade": {
+        "id": "arcade",
+        "name": "Arcade",
+        "price": 9,
+        "additionalNote": ""
+      },
+      "advanced": {
+        "id": "advanced",
+        "name": "Advanced",
+        "price": 12,
+        "additionalNote": ""
+      },
+      "pro": {
+        "id": "pro",
+        "name": "Pro",
+        "price": 15,
+        "additionalNote": ""
+      }
+    },
+    "addons": {
+      "online-service": {
+        "id": "online-service",
+        "name": "Online Service",
+        "details": "Access to multiplayer games",
+        "price": 1
+      },
+      "larger-storage": {
+        "id": "larger-storage",
+        "name": "Larger Storage",
+        "details": "Extra 1TB of cloud save",
+        "price": 2
+      },
+      "customizeable-profit": {
+        "id": "customizeable-profit",
+        "name": "Customizable Profit",
+        "details": "Custom theme on your profile",
+        "price": 2
+      }
+    }
+  },
+  "yearly": {
+    "id": "yearly",
+    "planName": "Yearly",
+    "plans": {
+      "arcade": {
+        "id": "arcade",
+        "name": "Arcade",
+        "price": 90,
+        "additionalNote": "2 months free"
+      },
+      "advanced": {
+        "id": "advanced",
+        "name": "Advanced",
+        "price": 120,
+        "additionalNote": "2 months free"
+      },
+      "pro": {
+        "id": "pro",
+        "name": "Pro",
+        "price": 150,
+        "additionalNote": "2 months free"
+      }
+    },
+    "addons": {
+      "online-service": {
+        "id": "online-service",
+        "name": "Online Service",
+        "details": "Access to multiplayer games",
+        "price": 10
+      },
+      "larger-storage": {
+        "id": "larger-storage",
+        "name": "Larger Storage",
+        "details": "Extra 1TB of cloud save",
+        "price": 20
+      },
+      "customizeable-profit": {
+        "id": "customizeable-profit",
+        "name": "Customizable Profit",
+        "details": "Custom theme on your profile",
+        "price": 20
+      }
+    }
+  }
+}
