@@ -27,7 +27,7 @@ module.exports = {
         checked: "url('/src/assets/images/icon-checkmark.svg')",
       },
       boxShadow: {
-        trial: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;",
+        trial: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
       },
     },
   },
