@@ -9,7 +9,8 @@ export const InputField = ({
   initialRender,
 }) => {
   const baseClass =
-    "border-slate-300 shadow-none rounded-md border-[1px] leading-10 w-full px-4 text-MarineBlue font-medium tracking-normal focus:border-PurplishBlue focus:outline-none";
+    "shadow-none rounded-md border-[1px] leading-10 w-full px-4 text-MarineBlue font-medium tracking-normal focus:border-PurplishBlue focus:outline-none";
+  const validClass = baseClass + " border-slate-300"
   const invalidInputClass = baseClass + " border-red-400";
   return (
     <div>
@@ -23,7 +24,7 @@ export const InputField = ({
         value={state}
         onChange={handleChange}
         className={
-          !initialRender.current && !isValid ? invalidInputClass : baseClass
+          !initialRender.current && !isValid ? invalidInputClass : validClass
         }
       />
     </div>
